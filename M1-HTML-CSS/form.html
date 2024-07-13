@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Application Form</h1><br>
+    
+    <!-- first name text box -->
+    <!-- limit 20 chars -->
+    <b><label for="first_name">First Name</label></b><br>
+    <input type="text"  id="first_name" maxlength="20">
+
+    <br>
+
+    <!-- last name text box -->
+    <!-- limit 20 chars -->
+    <b><label for="last_name">Last Name</label></b><br>
+    <input type="text" id="last_name" maxlength="20">
+
+    <br>
+
+    <!-- region radio btn-->
+    <b><p>Region</p></b>
+
+    <!-- Asia-->
+    <input type="radio" name="region" id="asia">
+    <label for="asia">Asia</label>
+
+    <!-- Europe-->
+    <input type="radio" name="region" id="europe">
+    <label for="europe">Europe</label>
+
+    <!-- North America-->
+    <input type="radio" name="region" id="nAmerica">
+    <label for="nAmerica">North America</label>
+
+    <!-- South America-->
+    <input type="radio" name="region" id="sAmerica">
+    <label for="sAmerica">South America</label>
+
+    <!-- Africa-->
+    <input type="radio" name="region" id="africa">
+    <label for="africa">Africa</label>
+
+    <br>
+
+    <!-- class check boxes-->
+    <b><p>Coding Class</p></b>
+
+    <!-- js-->
+    <input type="checkbox" id="js">
+    <label for="js">JavaScript</label>
+
+    <!-- python-->
+    <input type="checkbox" id="python">
+    <label for="python">Python</label>
+
+    <!-- html/css-->
+    <input type="checkbox" id="html_css">
+    <label for="html_css">HTML/CSS</label>
+
+    <br>
+    <br>
+
+    <!-- drop down list -->
+    <label for="exp"><b>Your coding experiences</b></label>
+    <select name="exp">
+        <option value="no">No Experiences</option>
+        <option value="some">Some Experiences</option>
+        <option value="ext">Extensive Experiences</option>
+    </select>
+
+    <br>
+    <br>
+
+    <!-- text area -->
+    <b><p>Any other comments for your application</p></b>
+    <textarea cols="30" rows="10"></textarea>
+
+</body>
+</html>
